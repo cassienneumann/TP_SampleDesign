@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Sample Design</string>
+    <string name="details">ANDROID MATERIAL</string>
+    <string name="design">DESIGN</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="linkdin">Linkdin</string>
+    <string name="signin">Sign in</string>
+    <string name="create">Create Account</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="next">next</string>
+</resources>

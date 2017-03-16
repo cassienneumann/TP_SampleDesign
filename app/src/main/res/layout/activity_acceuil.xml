@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_acceuil"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/splash"
+    tools:context="osmbonuspacktuto.example.com.sampledesign.acceuil.Acceuil">
+
+    <ImageView
+        android:id="@+id/logo_android"
+        android:src="@drawable/ic_android_24dp"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/tv_details"
+        android:text="@string/details"
+        android:layout_below="@id/logo_android"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:textColor="#FFF"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_design"
+        android:text="@string/design"
+        android:layout_marginTop="220dp"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_create"
+        android:text="@string/create"
+        android:textSize="17sp"
+        android:textColor="#fff"
+        android:textIsSelectable="true"
+        android:clickable="true"
+        android:background="#4fc3f7"
+        android:layout_marginTop="370dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="260dp"
+        android:layout_height="60dp" />
+
+    <Button
+        android:id="@+id/btn_signin"
+        android:text="@string/signin"
+        android:textSize="17sp"
+        android:textColor="#4fc3f7"
+        android:textIsSelectable="true"
+        android:clickable="true"
+        android:background="#fff"
+        android:layout_marginTop="450dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="260dp"
+        android:layout_height="60dp" />
+
+</RelativeLayout>

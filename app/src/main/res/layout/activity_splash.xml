@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_splash"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/splash"
+    tools:context="osmbonuspacktuto.example.com.sampledesign.splash.SplashActivity">
+
+
+    <RelativeLayout
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/logo_android"
+            android:src="@drawable/ic_android_24dp"
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/tv_details"
+            android:text="@string/details"
+            android:layout_below="@id/logo_android"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:textColor="#FFF"
+            android:textSize="20sp"
+            android:layout_centerHorizontal="true"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_design"
+            android:text="@string/design"
+            android:layout_marginTop="270dp"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>
